@@ -28,18 +28,15 @@ autoReplyPvt = False
 
 @register(outgoing=True, pattern="^[.]creator$")
 async def cre(e):
-  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ItsMat
-♻️ Canale @ItsMatDev""")
+  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ScognaSeLLer""")
 
 @register(outgoing=True, pattern="^[.]dev$")
 async def dev(e):
-  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ItsMat
-♻️ Canale @ItsMatDev""")
+  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ScognaSeLLer""")
 
 @register(outgoing=True, pattern="^[.]seller$")
 async def seller(e):
-  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ItsMat
-♻️ Canale @ItsMatDev""")
+  await e.edit("""🧑🏻‍💻 Userbot sviluppato da @ScognaSeLLer""")
 
 
 
